@@ -1,4 +1,6 @@
 # Agriculture Analytics Dashboard
+![image](https://github.com/kartik294/Agriculture-Analytics/assets/82908023/bd1d2a5f-6cdc-4333-a54e-75e779c05b9e)
+
 
 This project is a web-based dashboard for visualizing and analyzing agricultural data. It provides insights into crop production, average yields, and cultivation areas over different years.
 
