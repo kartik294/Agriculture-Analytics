@@ -1,0 +1,60 @@
+/* Container for both tables */
+.tableContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Common styles for both tables */
+.cropProductionTable, .averageDataTable {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background */
+    padding: 1rem;
+    color: #333; /* Dark text color */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #555; /* Darker text color for headings */
+    text-align: center;
+}
+
+/* Responsive styles for medium screens (e.g., tablets) */
+@media (max-width: 1024px) {
+    .tableContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cropProductionTable, .averageDataTable {
+        height: 40vh;
+        width: 90%;
+    }
+}
+
+/* Responsive styles for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .tableContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cropProductionTable, .averageDataTable {
+        height: 30vh;
+        width: 100%;
+    }
+}
